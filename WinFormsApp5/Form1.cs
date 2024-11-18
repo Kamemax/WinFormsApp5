@@ -12,11 +12,7 @@ namespace WinFormsApp5
         private void Form1_Load(object sender, EventArgs e)
         {
             Connect();
-            string sql = "select * from Products";
-            da = new SqlDataAdapter(sql, conn);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
-            dataGridView1.DataSource = ds.Tables[0];
+            showData();
         }
         SqlConnection conn; // Fixed typo from sqlConnection to SqlConnection.
         SqlCommand cmd;     // Fixed typo from sqlcommcand to SqlCommand.
@@ -32,6 +28,7 @@ namespace WinFormsApp5
         private void Disconnect()
         {
             conn.Close();
+
         }
 
         
