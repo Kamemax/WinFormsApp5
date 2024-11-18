@@ -34,9 +34,18 @@ namespace WinFormsApp5
             conn.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        
+
+        private void showData()
         {
+            string sql = "select * from Products";
+            da = new SqlDataAdapter(sql, conn);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+        }
+        
 
         }
-    }
 }
+
