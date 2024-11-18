@@ -51,10 +51,10 @@ namespace WinFormsApp5
             // 
             // button1
             // 
-            button1.Location = new Point(418, 31);
+            button1.Location = new Point(386, 31);
             button1.Name = "button1";
             button1.RightToLeft = RightToLeft.Yes;
-            button1.Size = new Size(85, 27);
+            button1.Size = new Size(117, 27);
             button1.TabIndex = 1;
             button1.Text = "พนักงาน";
             button1.UseVisualStyleBackColor = true;
@@ -62,9 +62,9 @@ namespace WinFormsApp5
             // 
             // button2
             // 
-            button2.Location = new Point(547, 31);
+            button2.Location = new Point(524, 31);
             button2.Name = "button2";
-            button2.Size = new Size(85, 27);
+            button2.Size = new Size(108, 27);
             button2.TabIndex = 2;
             button2.Text = "หมวดหมู่";
             button2.UseVisualStyleBackColor = true;
@@ -72,9 +72,9 @@ namespace WinFormsApp5
             // 
             // button3
             // 
-            button3.Location = new Point(677, 31);
+            button3.Location = new Point(660, 31);
             button3.Name = "button3";
-            button3.Size = new Size(85, 27);
+            button3.Size = new Size(102, 27);
             button3.TabIndex = 3;
             button3.Text = "สินค้า";
             button3.UseVisualStyleBackColor = true;
