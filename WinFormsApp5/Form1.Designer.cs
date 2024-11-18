@@ -33,6 +33,7 @@ namespace WinFormsApp5
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -80,11 +81,22 @@ namespace WinFormsApp5
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // button4
+            // 
+            button4.Location = new Point(272, 31);
+            button4.Name = "button4";
+            button4.RightToLeft = RightToLeft.Yes;
+            button4.Size = new Size(85, 27);
+            button4.TabIndex = 4;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(830, 460);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -107,5 +119,6 @@ namespace WinFormsApp5
         private Button button1;
         private Button button2;
         private Button button3;
+        private Button button4;
     }
 }

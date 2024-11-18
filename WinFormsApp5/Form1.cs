@@ -56,6 +56,11 @@ namespace WinFormsApp5
         {
             showData("select * from Products");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
